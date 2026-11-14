@@ -1,1 +1,16 @@
 node_modules
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dữ liệu Wikispeedia (rất nặng, không đưa lên git)
+data/wikispeedia_articles_plaintext.tar.gz
+data/wikispeedia_paths-and-graph.tar.gz
+data/plaintext_articles/
+data/wikispeedia_paths-and-graph/
+
+# Thư mục sinh ra khi chạy autograder và nộp bài
+grading_reports/
+output/
